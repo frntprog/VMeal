@@ -10,5 +10,3 @@
 <script setup>
 import navbar from "./NavBar.vue";
 </script>
-
-<style lang="scss" scoped></style>

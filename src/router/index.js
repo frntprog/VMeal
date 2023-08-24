@@ -37,6 +37,11 @@ const routes = [
         name: "byLetter",
         component: MealList,
       },
+      {
+        path: "meal/:id",
+        name: "mealDetails",
+        compoennt: MealDetails,
+      },
     ],
   },
   { path: "/guest", component: GuestLayout },
