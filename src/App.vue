@@ -1,7 +1,6 @@
-<script setup></script>
-
 <template>
-  <h class="text-3xl font-bold underline">Hello</h>
+  <router-view></router-view>
 </template>
+<script setup></script>
 
 <style scoped></style>
