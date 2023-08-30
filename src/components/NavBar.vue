@@ -2,27 +2,29 @@
   <header class="bg-white shadow h-16 flex justify-between items-stretch">
     <router-link
       :to="{ name: 'home' }"
-      class="inline-flex items-center h-full px-5"
-      >Home</router-link
+      class="inline-flex items-center h-full px-5 text-orange-500 font-bold"
     >
+      Home
+    </router-link>
     <div class="flex items-center gap-1">
       <router-link
-        :to="{ name: 'byName', params: {} }"
-        class="inline-flex items-center px-2 h-full transition-colors hover:bg-purple-200"
-        >Search Meals</router-link
+        :to="{ name: 'byName' }"
+        class="inline-flex items-center px-2 h-full transition-colors hover:bg-orange-500 hover:text-white"
       >
+        Search Meals
+      </router-link>
       <router-link
-        :to="{ name: 'byLetter', params: {} }"
-        class="inline-flex items-center px-2 h-full transition-colors hover:bg-purple-200"
-        >Meals By Letter</router-link
+        :to="{ name: 'byLetter' }"
+        class="inline-flex items-center px-2 h-full transition-colors hover:bg-orange-500 hover:text-white"
       >
+        Meals By Letter
+      </router-link>
       <router-link
-        :to="{ name: 'byIngredient', params: {} }"
-        class="inline-flex items-center px-2 h-full transition-colors hover:bg-purple-200"
-        >Meals By Ingredient</router-link
+        :to="{ name: 'ingredients' }"
+        class="inline-flex items-center px-2 h-full transition-colors hover:bg-orange-500 hover:text-white"
       >
+        Meals By Ingredients
+      </router-link>
     </div>
   </header>
 </template>
-
-<script setup></script>
